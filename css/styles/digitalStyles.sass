@@ -1,0 +1,613 @@
+//VARIABLES COLORES
+
+$verde1: #00BFA5
+$rojo1: #eb423d
+$blanco: #ffffff
+$negro: #000000
+$gris: #808080
+$gris2: #e8e8e8
+$gris3: #4b4f56
+$blanco2: #ffffff
+
+//VARIABLES FONTS
+@import url(https://fonts.googleapis.com/css?family=Roboto:300)
+@import url(https://fonts.googleapis.com/css?family=Oswald)
+@import url(https://fonts.googleapis.com/css?family=Open+Sans)
+
+//@import url("../../../FONTS/fontVintage/teamspirit.regular.ttf")
+//background-image: url('../../../images/main/img1.png')
+
+@font-face
+	font-family: teamspirit
+	src: url(../../../fonts/FONTS/fontVintage/teamspirit.regular.ttf)
+@font-face
+	font-family: teamspiritRegular
+	src: url(../../../fonts/FONTS/fontVintage/BittersweetNF.otf)
+@font-face
+	font-family: parkLaneNF
+	src: url(../../../fonts/FONTS/fontVintage/parkLaneNF.ttf)
+@font-face
+	font-family: candy
+	src: url(../../../fonts/FONTS/fontVintage/candy.otf)
+
+
+
+
+
+
+$font2: Oswald
+$font3: teamspirit
+$font4: teamspiritRegular
+$font5: parkLaneNF
+$font6: candy
+
+html
+	overflow-y: scroll
+	overflow-x: hidden
+body
+
+	font-family: Roboto
+	.upSection
+		#upBackground
+			height: 35px
+			background-color: $blanco2
+			ul
+				float: left
+				list-style: none
+				display: -webkit-inline-box
+				li
+					padding-top: 10px
+					padding-bottom: 0px
+					font-size: 11px
+					color: $gris
+					&:hover
+						color: $negro
+			#social
+				float: right
+				margin-right: -2px
+				li
+					padding-top: 0px
+					padding-bottom: 0px
+					&:hover
+						background-color: rgba(119, 119, 119, 0.37)
+						border-radius: 1000px
+	nav
+		width: 100%
+		position: relative
+		z-index: 99999
+		.container-fluid
+			height: auto
+			.navbar-brand
+				margin-left: 40px
+				img
+					margin-top: -10px
+					height: 60px
+					background-color: transparent
+					margin-left: 53px
+		ul
+			list-style: none
+			li
+				a
+					margin-top: 15px
+					margin-bottom: 5px
+					font-family: $font2
+					padding-right: 20px
+					color: $negro
+					&:hover
+						color: $rojo1
+						text-decoration: none
+				#contact
+					color: $rojo1
+					&:hover
+						background-color: rgba(204, 46, 99, 0.58)
+						color: white
+
+	//Sticky after 97px height
+	.affix
+		top: 0px
+		opacity: 0.95
+		//border-radius: 0px
+	#carousel-example-generic
+	.carousel-inner
+		height: 80vh
+	.carousel
+		margin-top: -20px
+		.carousel-control.right
+			display: none
+		.carousel-control.left
+			display: none
+		.carousel-indicators li
+			border-color: $gris
+			background-color: $gris
+		.carousel-indicators .active
+			background-color: $rojo1
+			border-color: $rojo1
+	.carousel-caption
+		margin-bottom: 50px
+		.btn-primary
+			background-color: $rojo1
+			border-color: $rojo1
+			width: 50%
+			p
+				font-size: 35px
+		#text
+			font-size: 30px
+			a
+				color: $rojo1
+
+	.webSection
+		#webBackground
+			background-color: $gris2
+			padding-top: 100px
+			padding-bottom: 100px
+			text-align: center
+			h2
+				font-family: $font2
+				padding-bottom: 80px
+				color: $gris3
+
+			p#description
+				margin-top: -50px
+				font-size: 16px
+				font-weight: 400
+				color: $gris3
+				font-family: 'Open Sans', sans-serif
+			#imagesWeb
+				margin-top: 50px
+				img
+					margin-bottom: 30px
+				a
+					color: $rojo1
+					text-decoration: none
+					&:hover
+						color: $gris3
+
+	.socialSection
+		#socialBackground
+			background-color: $blanco2
+			padding-top: 100px
+			padding-bottom: 100px
+			float: left
+			h2
+				font-family: $font2
+				padding-bottom: 80px
+				color: $gris3
+			/*#imagesAlive
+				margin-bottom: 250px
+				text-align: center
+				#contenedor
+					a
+						.imageBox
+							background: url(../../../images/alive/destrek_icon.png) no-repeat
+							height: 200px
+							width: 100%
+						.imageBox2
+							background: url(../../../images/alive/wireles_icon.png) no-repeat
+							height: 200px
+							width: 100%
+						.imageBox3
+							background: url(../../../images/alive/teaching_icon.png) no-repeat
+							height: 200px
+							width: 100%
+						#descripcion
+							padding-top: 10px
+							font-size: 15px
+							font-weight: 100
+							h2
+								padding-bottom: 10px
+					&:hover
+						a
+							color: $rojo1
+							text-decoration: none
+							.imageBox
+								background: url(../../../images/alive/destrek_icon2.png) no-repeat
+								height: 200px
+								width: 100%
+							.imageBox2
+								background: url(../../../images/alive/wireles_icon2.png) no-repeat
+								height: 200px
+								width: 100%
+							.imageBox3
+								background: url(../../../images/alive/teaching_icon2.png) no-repeat
+								height: 200px
+								width: 100%
+							#descripcion
+								padding-top: 10px
+								font-size: 15px
+								font-weight: 100
+								color: $rojo1
+								h2
+									padding-bottom: 10px
+									color: $rojo1*/
+
+			p
+				font-size: 16px
+				font-weight: 400
+				color: $gris3
+				font-family: 'Open Sans', sans-serif
+				img
+				button
+					float: left
+					margin-top: 22px
+					background-color: $rojo1
+					color: $blanco2
+					width: 100%
+					height: 50px
+					&:hover
+						background-color: transparent
+						border-color: $rojo1
+						color: $rojo1
+						width: 100%
+
+	.fiknerSection
+		#fiknerBackground
+			background-color: $blanco2
+			padding-top: 100px
+			padding-bottom: 100px
+			h2
+				font-family: $font2
+				padding-bottom: 80px
+				color: $gris3
+			p
+				font-size: 16px
+				font-weight: 400
+				font-family: 'Open Sans', sans-serif
+				span
+					color: $rojo1
+			.btn-lg
+				width: 100%
+				margin-top: 0px
+				background-color: $rojo1
+				border-color: $rojo1
+				padding: 20px
+				color: $blanco
+				font-family: $font2
+				&:hover
+					background-color: $gris
+					border-color: $gris
+				strong
+					font-size: 15px
+
+	#teamSection
+		background-color: $rojo1
+		.teamSection
+			#teamBackground
+				text-align: center
+				//background: url(arley.jpg)
+				//background-image: url(arley.jpg)
+				//background-size: cover
+				//background-repeat: no-repeat
+				width: 100%
+				height: 100%
+				padding-bottom: 0px
+				position: relative
+				z-index: 99
+				.team
+					h2
+						padding-top: 120px
+						padding-bottom: 50px
+						font-family: $font2
+						color: $blanco
+				.teamSection
+					#img1
+						background: url(../../../images/team/jorge.jpg) no-repeat
+						height: 200px
+						width: 200px
+					#img2
+						background: url(../../../images/team/arley.jpg) no-repeat
+						height: 200px
+						width: 200px
+					#img3
+						background: url(../../../images/team/lucho.jpg) no-repeat
+						height: 200px
+						width: 200px
+					&:hover
+						#img1
+							background: url(../../../images/team/arley.jpg) no-repeat
+							height: 200px
+							width: 200px
+						#img2
+							background: url(../../../images/team/lucho.jpg) no-repeat
+							height: 200px
+							width: 200px
+						#img3
+							background: url(../../../images/team/jorge.jpg) no-repeat
+							height: 200px
+							width: 200px
+					h2
+						padding-top: 50px
+						padding-bottom: 120px
+				h5
+					margin-top: -80px
+					padding-bottom: 200px
+					font-size: 16px
+					font-weight: 400
+					color: $gris2
+					font-family: 'Open Sans', sans-serif
+
+	#photosSection
+		.photosSection
+			padding-top: 0px
+			.codrops-header
+				margin-top: -3px
+				//background-image: image("../../../images/social/Marilyn.pn") no-repeat
+				//background-size: cover
+				background-color: $rojo1
+				height: auto
+				width: 100%
+				h1
+				font-family: $font5
+				span
+					font-family: $font4
+					font-weight: 100
+					font-size: 40px
+				#marilynSocial
+				img
+					position: relative
+					z-index: 0
+					float: right
+					width: 400px
+					margin-right: -20px
+					margin-bottom: -100px
+			#photostack-1
+				margin-bottom: 0px
+	/*#socialSection
+		margin-top: -205px
+		.socialSection
+			#socialBackground
+				background-color: $gris2
+				padding-top: 100px
+				padding-bottom: 100px
+				text-align: center
+				h2
+					font-family: $font2
+					padding-bottom: 50px
+					color: $gris3
+				#socialText
+					position: relative
+					z-index: 999
+					margin-top: 0px
+				h4
+					font-weight: 200
+					font-size: 17px
+					color: $gris*/
+
+
+	.contactUsSection
+		#contactUsBackground
+			background-color: $gris2
+			margin-top: -5px
+			padding-top: 100px
+			padding-bottom: 100px
+			h2
+				color: $rojo1
+				font-family: $font2
+				span
+					color: $gris3
+			#texto
+				margin-top: 50px
+				color: $gris3
+				font-size: 20px
+			.btn-lg
+				width: 100%
+				margin-top: 0px
+				background-color: $gris
+				padding: 20px
+				color: $blanco
+				font-family: $font2
+				&:hover
+					background-color: $rojo1
+					border-color: $rojo1
+				strong
+					font-size: 15px
+			.form-control
+				height: 55px
+				background-color: $blanco
+				font-size: 18px
+				font-family: 'Open Sans', sans-serif
+
+	footer
+		background-color: $gris3
+		padding-bottom: 50px
+		#footerBackground
+			#footerBackgroundNavBlack
+				background-color: $rojo1
+				height: 70px
+				height: auto
+				h2
+					padding-top: 80px
+					color: $blanco
+					font-family: $font2
+					padding-bottom: 40px
+				p
+					text-align: center
+					color: $gris2
+					font-size: 15px
+					font-weight: 400
+					font-family: 'Open Sans', sans-serif
+					padding-bottom: 80px
+		#textoFooter
+			margin-top: 50px
+			font-size: 12px
+			font-weight: 400
+			color: #bec2c9
+			line-height: 24px
+			font-family: 'Open Sans', sans-serif
+			padding-bottom: 30px
+			ul
+				li
+					list-style: none
+					margin-left: 0px
+					margin-top: 10px
+					a
+						color: #bec2c9
+						&:hover
+							color: $blanco
+							text-decoration: none
+					&:hover
+						#social
+							background-color: $blanco2
+							border-radius: 50px
+
+			#footerLine
+				border-top: 1px solid rgba(183, 183, 183, 0.81)
+		#digitalCredits
+			font-size: 12px
+			float: right
+			color: #bec2c9
+			line-height: 0px
+			font-family: 'Open Sans', sans-serif
+
+@media (min-width: 1216px) and (max-width: 1438px)
+	html
+	overflow-y: scroll
+	overflow-x: hidden
+	body
+		#teamSection
+			.teamSection
+
+
+
+@media (min-width: 1077px) and (max-width: 1215px)
+	html
+	overflow-y: scroll
+	overflow-x: hidden
+	body
+		#teamSection
+			.teamSection
+				#teamBackground
+
+
+
+@media (min-width: 992px) and (max-width: 1076px)
+	html
+	overflow-y: scroll
+	overflow-x: hidden
+	body
+		#teamSection
+			.teamSection
+				#teamBackground
+
+@media (min-width: 769px) and (max-width: 991px)
+	html
+		overflow-y: scroll
+		overflow-x: hidden
+	body
+		nav .container-fluid .navbar-brand img
+			margin-left: 15px
+		.carousel-caption
+			margin-bottom: -200px
+			.btn-primary
+				width: 100%
+
+		#teamSection
+			.teamSection
+				#teamBackground
+
+
+@media (min-width: 401px) and (max-width: 768px)
+	html
+		overflow-y: scroll
+		overflow-x: hidden
+	body
+
+
+		#teamSection
+			.teamSection
+				#teamBackground
+
+		#socialSection
+			margin-top: -205px
+			.socialSection
+				#socialBackground
+					background-color: $verde1
+					padding-top: 200px
+					text-align: center
+					h2
+						font-family: $font2
+						padding-bottom: 80px
+						color: $gris
+					.titleSocial
+						font-size: 20px
+					#socialText
+						position: relative
+						z-index: 999
+						margin-top: 100px
+					#marilynSocial
+					img
+						position: relative
+						z-index: 0
+						float: right
+						width: 300px
+
+
+//MOTO X 2 Gen
+@media (min-width: 297px) and (max-width: 400px)
+	html
+		overflow-y: scroll
+		overflow-x: hidden
+	body
+		nav .container-fluid .navbar-brand img
+			margin-left: 15px
+		.carousel-caption
+			margin-bottom: -400px
+			.btn-primary
+				width: 100%
+				p
+					font-size: 18px
+					margin-top: 10px
+		.webSection
+			#webBackground
+				background-color: $verde1
+				padding-top: 200px
+				padding-bottom: 200px
+				text-align: center
+			.imageFrontBack
+				margin-top: 50px
+				h2
+					font-family: $font2
+					padding-bottom: 80px
+					margin-top: 50px
+					color: $gris
+				.tools
+					margin-top: -30px
+			.imageDesign
+				margin-top: 150px
+				h2
+					font-family: $font2
+					padding-bottom: 80px
+					margin-top: 50px
+					color: $gris
+				.tools
+					margin-top: -30px
+
+
+
+
+		#teamSection
+			.teamSection
+				#teamBackground
+
+		#socialSection
+			margin-top: -205px
+			.socialSection
+				#socialBackground
+					background-color: $verde1
+					padding-top: 200px
+					text-align: center
+					h2
+						font-family: $font2
+						padding-bottom: 80px
+						color: $gris
+					.titleSocial
+						font-size: 15px
+					#socialText
+						position: relative
+						z-index: 999
+						margin-top: 100px
+					#marilynSocial
+					img
+						position: relative
+						z-index: 0
+						float: right
+						width: 300px
